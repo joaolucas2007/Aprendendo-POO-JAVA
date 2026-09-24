@@ -15,6 +15,13 @@ public class TestaConta {
         //testando metodo de sacar dinheiro na cont01
         conta01.saca(200);
 
+
+        // Testando metodo que retornar valor da conta
+        System.out.println(conta01.consultaConta());
+
+
+
+
         //Printando o saldo na conta após depositar e sacar dinheiro
         System.out.println(conta01.saldo);
     }

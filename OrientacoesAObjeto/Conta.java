@@ -15,4 +15,9 @@ public class Conta {
     void saca(double valor) {
         saldo -= valor;
     }
+
+    //Criando metodo que retorna valor
+    double consultaConta() {
+        return saldo;
+    }
 }
