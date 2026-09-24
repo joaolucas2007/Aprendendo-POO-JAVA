@@ -15,8 +15,8 @@ public class TestaCliente {
         cliente02.Codigo = 2;
 
         //Printando na tela os dados dos atributos de cada cliente
-        System.out.println("O primeiro cliente se chama: " + cliente01.nome + " Seu codigo é: " + cliente01.Codigo);
-        System.out.println("O nome do segundo Cliente é" + cliente02.nome + " Seu Codigo é: " + cliente02.Codigo);
+        System.out.println("O primeiro cliente se chama: " + cliente01.nome + " Seu Codigo é: " + cliente01.Codigo);
+        System.out.println("O nome do segundo Cliente é: " + cliente02.nome + " Seu Codigo é: " + cliente02.Codigo);
 
     }
 
